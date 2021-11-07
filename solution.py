@@ -7,3 +7,6 @@ def compute(a, b):
 
 def log_warning(msg):
     logging.warning(msg)
+def log_info(msg):
+    "This function is added by a child branch whose parent is 'conflicting-branch"
+    logging.info(msg)
